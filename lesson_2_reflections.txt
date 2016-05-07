@@ -1,0 +1,43 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+    When you initialize a repository, you can run git status to see which files are being tracked. I needed to do it to be able to track the reflection file with git version control.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+    Staging area is the waiting room for files before they are committed to the repository. This allows me to add changes to the staging area one-by-one, then commit them all at once. It's valuable since the commit history is easier to navigate when I create one commit per logical change.
+
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+
+   I can add and remove files to make sure that logical changes are separated
+   properly.
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+   Branches would be helpful in keeping my history organized in situations where I want
+   to try out a new feature.
+
+How do the diagrams help you visualize the branch structure?
+
+   The diagrams show what the parent of each commit is. It does help understanding how the branch works and this makes it clear where to find specific changes.
+
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+   They combine changes made on both branches into one complete branch. This is shown this way in the diagram in order to show that both branches's commits are now reachable and that the merged commit has two parents.
+
+
+What are the pros and cons of Git's automatic merging vs. always doing merges
+manually?
+
+ 	Git's automatic merging is convenient, it can save the user a lot of time. The task of manually merging makes the developer(s) aware of potential conflicts in branches that should be resolved prior to merging. This may add time, but facilitates revision of code and functionality.
+
+
+
+
+
